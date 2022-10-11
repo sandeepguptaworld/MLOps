@@ -20,7 +20,8 @@ jobs:
           # Your ML workflow goes here
           pip install -r requirements.txt
           python --version
-          pip --list
+          pip list
+          python list
           python train.py
       - name: Write CML report
         env:
