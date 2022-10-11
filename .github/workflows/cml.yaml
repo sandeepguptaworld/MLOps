@@ -21,8 +21,7 @@ jobs:
           pip install -r requirements.txt
           python --version
           pip list
-          python list
-          python train.py
+          pip train.py
       - name: Write CML report
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
