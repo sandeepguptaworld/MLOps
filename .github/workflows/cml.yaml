@@ -18,10 +18,10 @@ jobs:
       - name: Train model
         run: |
           # Your ML workflow goes here
-          pip3 install -r requirements.txt
-          python3 --version
-          pip3 list
-          python3 train.py
+          python -m pip install -r requirements.txt
+          python --version
+          pip list
+          python train.py
       - name: Write CML report
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
