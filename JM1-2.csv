@@ -1,4 +1,4 @@
-loc numeric,v(g) numeric,ev(g) numeric,iv(g) numeric,n numeric,v numeric,l numeric,d numeric,i numeric,e numeric,b numeric,t numeric,lOCode numeric,lOComment numeric,lOBlank numeric,locCodeAndComment numeric,uniq_Op numeric,uniq_Opnd numeric,total_Op numeric,total_Opnd numeric,branchCount numeric,defects {false,true} 
+loc numeric,v(g) numeric,ev(g) numeric,iv(g) numeric,n numeric,v numeric,l numeric,d numeric,i numeric,e numeric,b numeric,t numeric,lOCode numeric,lOComment numeric,lOBlank numeric,locCodeAndComment numeric,uniq_Op numeric,uniq_Opnd numeric,total_Op numeric,total_Opnd numeric,branchCount numeric,defects (falsetrue) 
 1.1,1.4,1.4,1.4,1.3,1.3,1.3,1.3,1.3,1.3,1.3,1.3,2,2,2,2,1.2,1.2,1.2,1.2,1.4,false
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,true
 72,7,1,6,198,1134.13,0.05,20.31,55.85,23029.1,0.38,1279.39,51,10,8,1,17,36,112,86,13,true
