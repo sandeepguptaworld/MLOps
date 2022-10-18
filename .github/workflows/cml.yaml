@@ -28,4 +28,8 @@ jobs:
         run: |
           # Post reports as comments in GitHub PRs
           echo "MODLE METRICS"
-          cat metrics.txt
+          cat metrics.txt >> report.md
+          echo "##Model Metrics" > report.md
+          cml-publish feature_importance.png --md >> report.md
+          cml-publish residuals.png  --md >> report.md
+          cml-send-comment report.md
